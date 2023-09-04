@@ -1,0 +1,11 @@
+<!-- src/app/add-task/add-task.component.html -->
+
+<div>
+  <label for="taskTitle">Task Title:</label>
+  <input id="taskTitle" [(ngModel)]="task.title" type="text" />
+</div>
+<div>
+  <label for="dueDate">Due Date:</label>
+  <input id="dueDate" [(ngModel)]="task.dueDate" type="date" />
+</div>
+<button (click)="addTask()">Add Task</button>

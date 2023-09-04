@@ -1,0 +1,22 @@
+/* src/app/add-task/add-task.component.css */
+
+.add-task-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .add-task-button:hover {
+    background-color: #0056b3;
+  }
+  

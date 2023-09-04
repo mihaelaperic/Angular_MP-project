@@ -1,0 +1,9 @@
+<!-- src/app/task-list/task-list.component.html -->
+
+<ul>
+  <li *ngFor="let task of tasks" [class.completed-task]="task.completed">
+    {{ task.title }} (Due Date: {{ task.dueDate | date: 'medium' }})
+    <button (click)="markTaskAsCompleted(task.id)">Mark as Completed</button>
+    <button (click)="removeTask(task.id)">Remove</button>
+  </li>
+</ul>
